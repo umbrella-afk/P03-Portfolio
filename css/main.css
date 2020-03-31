@@ -403,6 +403,9 @@
   font-size: 5rem;
   font-weight: bold;
 }
+.carousel-caption h3 {
+  padding-bottom: 1rem;
+}
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;

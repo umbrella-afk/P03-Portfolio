@@ -11,6 +11,12 @@
   color: black;
 }
 
+// .scroll-banner:hover{
+//   overflow: hidden;
+//   transition: all 1.5s ease;
+//   transform: scale(1.5);
+// }
+
 
 .scroll-banner2{
   -webkit-background-size: cover;
@@ -49,13 +55,16 @@ padding-bottom: 300px;
 
   }
 
-  h2 span{
-
+  h3{
+    padding-bottom: 1rem;
   }
 
   a{
 
   }
 
+  .scroll-btn:hover{
+
+  }
 
 }

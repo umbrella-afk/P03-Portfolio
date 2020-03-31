@@ -8,3 +8,15 @@ window.addEventListener('scroll', () =>{
     header.classList.remove('scrolled');
   }
 })
+
+$(function(){
+  var effects = 'animated rubberBand';
+  // cover all end function to make sure animation will close in different browsers
+  var effectsEnd = 'animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd';
+
+  $('button').hover(function(){
+    $(this).addClass(effects).one(effectsEnd,function(){
+      $(this).removeClass(effects);
+    });
+  });
+});
