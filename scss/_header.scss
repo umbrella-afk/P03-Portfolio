@@ -3,22 +3,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 65px;
+  height: 50px;
   width: 100vw;
   padding: 0 10vw;
   color: #000;
   z-index: 1;
   transition: 0.5s ease-out;
 
+
   a{
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
+    align-items: center;
+  }
+
+
+  .logo a{
+    font-size: 2.5rem;
   }
 
   .nav-links{
     display: flex;
     list-style: none;
+    margin: auto 0;
+
 
     .nav-link{
       transition:
@@ -38,7 +47,8 @@
       }
 
       a:hover{
-        background: rgba(255,255,255,0.2);
+        color:grey;
+
       }
     }
   }

@@ -4,6 +4,9 @@
 @import 'header';
 @import 'media';
 @import 'animations';
+@import 'banner1';
+@import 'globles';
+@import 'intro';
 
 
 *, *::before, *::after {
@@ -13,14 +16,30 @@
 }
 
 body{
+  background-color: rgba(0,0,0,0);
   font-family: 'Roboto', sans-serif;
+}
+
+.padding{
+  padding: 80px 0;
+
+
+  img{
+    width: 100%;
+  }
+
+  .project1 {
+    font-size: 1.5rem;
+    padding-top: 5rem;
+
+  }
+
+
 }
 
 .container{
   width: 80%;
-  margin:2rem auto;
+  padding-top: 12rem;
 
-  p{
-    margin:1rem 0;
-  }
+
 }
