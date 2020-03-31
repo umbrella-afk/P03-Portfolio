@@ -1,0 +1,61 @@
+
+
+.scroll-banner{
+  -webkit-background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  background: url('../img/gun1.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: black;
+}
+
+
+.scroll-banner2{
+  -webkit-background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  background: url('../img/bg5.png') no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: black;
+}
+
+.scroll-banner3{
+  -webkit-background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  background: url('../img/bg4.png') no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: black;
+}
+
+
+.carousel-caption{
+padding-bottom: 300px;
+
+  .project-text{
+    padding: 1rem;
+
+  }
+
+  h2{
+    font-size: 5rem;
+    font-weight: bold;
+
+  }
+
+  h2 span{
+
+  }
+
+  a{
+
+  }
+
+
+}

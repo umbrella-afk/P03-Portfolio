@@ -319,6 +319,7 @@
   padding: 1.1rem;
   background: white;
   position: relative;
+  color: black;
   border: 1px solid black;
   border-radius: 4px;
 }
@@ -359,6 +360,49 @@
   color: black;
 }
 
+.scroll-banner {
+  -webkit-background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  background: url("../img/gun1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: black;
+}
+
+.scroll-banner2 {
+  -webkit-background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  background: url("../img/bg5.png") no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: black;
+}
+
+.scroll-banner3 {
+  -webkit-background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  background: url("../img/bg4.png") no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: black;
+}
+
+.carousel-caption {
+  padding-bottom: 300px;
+}
+.carousel-caption .project-text {
+  padding: 1rem;
+}
+.carousel-caption h2 {
+  font-size: 5rem;
+  font-weight: bold;
+}
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -384,4 +428,9 @@ body {
 .container {
   width: 80%;
   padding-top: 12rem;
+}
+
+container1 {
+  width: 100vw;
+  padding: 0;
 }
