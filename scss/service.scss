@@ -1,0 +1,26 @@
+.service-area{
+  padding: 7rem 2rem;
+  margin-bottom: 20rem;
+  .services{
+    width: 250px;
+  }
+
+  .services .card-body{
+    padding: 2rem;
+  }
+
+  .card-body h5{
+    font-weight: bold;
+
+  }
+
+  .service-list{
+    padding-top: 8rem;
+  }
+
+  .service-title{
+    padding: 2rem;
+    color: black;
+    font-weight:500;
+  }
+}

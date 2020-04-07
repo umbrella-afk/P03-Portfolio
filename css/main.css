@@ -434,6 +434,28 @@
   text-decoration: none;
 }
 
+.service-area {
+  padding: 7rem 2rem;
+  margin-bottom: 20rem;
+}
+.service-area .services {
+  width: 250px;
+}
+.service-area .services .card-body {
+  padding: 2rem;
+}
+.service-area .card-body h5 {
+  font-weight: bold;
+}
+.service-area .service-list {
+  padding-top: 8rem;
+}
+.service-area .service-title {
+  padding: 2rem;
+  color: black;
+  font-weight: 500;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -459,6 +481,11 @@ body {
 .container {
   width: 80%;
   padding-top: 12rem;
+}
+
+.container2 {
+  width: 80%;
+  padding-top: 3rem;
 }
 
 container1 {

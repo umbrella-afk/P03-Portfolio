@@ -9,6 +9,7 @@
 @import 'intro';
 @import 'scrollBanner';
 @import 'footer';
+@import 'service';
 
 
 *, *::before, *::after {
@@ -43,6 +44,11 @@ body{
   width: 80%;
   padding-top: 12rem;
 
+}
+
+.container2{
+  width: 80%;
+  padding-top: 3rem;
 
 }
 
