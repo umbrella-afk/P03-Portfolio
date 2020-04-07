@@ -408,6 +408,32 @@
 .carousel-caption h3 {
   padding-bottom: 1rem;
 }
+.footer-area {
+  background: black;
+  padding: 4rem 0;
+  color: #757575;
+}
+.footer-area .logo p {
+  color: white;
+  font-size: 2.5rem;
+}
+.footer-area .social h5 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footer-area .social a {
+  font-size: 22px;
+  padding: 2rem 2rem;
+  color: white;
+}
+.footer-area .copyright p {
+  padding-top: 1rem;
+}
+.footer-area .copyright span {
+  color: white;
+  text-decoration: none;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -420,7 +446,7 @@ body {
 }
 
 .padding {
-  padding: 80px 0;
+  padding: 200px 0;
 }
 .padding img {
   width: 100%;

@@ -20,6 +20,14 @@ $(function(){
     });
   });
 
+
+  $('a.copyright-link').hover(function(){
+    $(this).addClass(effects).one(effectsEnd,function(){
+      $(this).removeClass(effects);
+    });
+  });
+
+
   $('li.nav-link').hover(function(){
     $(this).addClass(effects).one(effectsEnd,function(){
       $(this).removeClass(effects);
