@@ -66,3 +66,40 @@
     font-weight: bold;
   }
 }
+
+// p2
+.p2_site-intro {
+  padding-left: 5rem;
+  margin-top: 10rem;
+
+
+
+
+    span{
+      display: block;
+      letter-spacing: 15px;
+      font-size: 3rem;
+      font-weight: 500;
+    }
+
+    p{
+      padding: 5rem ;
+      
+    }
+
+    .site-image img{
+     padding: 5rem ;
+     padding-right: 10rem;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 110%;
+   }
+}
+
+.explanation{
+  h4{
+    padding-bottom: 2rem;
+    font-weight: bold;
+  }
+}

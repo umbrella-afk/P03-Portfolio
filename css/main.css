@@ -38,6 +38,36 @@
   padding-left: 12rem;
 }
 
+.P2_landing {
+  height: 100vh;
+  width: 100vw;
+  background: url("../img/game4.png") no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: black;
+  margin-bottom: 15rem;
+}
+
+.p2_landing_text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.p2_landing_text h1 {
+  color: black;
+  font-size: 6rem;
+  text-transform: uppercase;
+  padding: 2rem;
+  border-radius: 10px 0;
+}
+.p2_landing_text h2 {
+  color: black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-left: 12rem;
+}
+
 .landing_text {
   display: table-cell;
   text-align: center;
@@ -379,6 +409,43 @@
   display: flex;
 }
 
+.p2_site-main .site-banner {
+  padding-left: 10rem;
+}
+.p2_site-main .site-banner .site-title h3 {
+  padding-top: 15%;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+  color: black;
+  margin: 0;
+}
+.p2_site-main .site-banner p {
+  padding-bottom: 20px;
+}
+.p2_site-main .site-banner .site-title h4 {
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+  color: black;
+  margin: 0;
+}
+.p2_site-main .site-banner .site-title h2 {
+  font-size: 4rem;
+  color: black;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0;
+}
+.p2_site-main .site-banner .banner-image img {
+  margin-top: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.p2_site-main .site-banner .site-button {
+  display: flex;
+}
+
 .text-upeercase {
   text-transform: uppercase;
 }
@@ -446,6 +513,33 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.explanation h4 {
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+.p2_site-intro {
+  padding-left: 5rem;
+  margin-top: 10rem;
+}
+.p2_site-intro span {
+  display: block;
+  letter-spacing: 15px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.p2_site-intro p {
+  padding: 5rem;
+}
+.p2_site-intro .site-image img {
+  padding: 5rem;
+  padding-right: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 110%;
 }
 
 .explanation h4 {
