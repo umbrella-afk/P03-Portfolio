@@ -198,7 +198,7 @@
     align-items: center;
     padding: 10rem 0;
     width: 100vw;
-    height: 25vh;
+    height: 100vh;
     font-size: 2rem;
     color: white;
     background: #272727;
@@ -744,4 +744,16 @@ body {
 container1 {
   width: 100vw;
   padding: 0;
+}
+
+.dividerline {
+  border-bottom: 2PX Solid black;
+}
+
+.dividerline {
+  padding-bottom: 4rem;
+}
+
+.dividerline h2 {
+  color: gray;
 }
