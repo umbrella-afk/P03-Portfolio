@@ -450,6 +450,10 @@
 .service-area .service-list {
   padding-top: 8rem;
 }
+.service-area span {
+  font-weight: bold;
+  color: black;
+}
 .service-area .service-title {
   padding: 2rem;
   color: black;

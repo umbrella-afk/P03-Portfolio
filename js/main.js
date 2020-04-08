@@ -14,7 +14,7 @@ $(function(){
   // cover all end function to make sure animation will close in different browsers
   var effectsEnd = 'animationend oAnimationEnd mozAnimationEnd webkitAnimationEnd';
 
-  $('button').hover(function(){
+  $('a').hover(function(){
     $(this).addClass(effects).one(effectsEnd,function(){
       $(this).removeClass(effects);
     });
