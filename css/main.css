@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
-
-
-
-
-
-
-
-
-
 .landing {
   height: 100vh;
   width: 100vw;
@@ -208,7 +198,7 @@
     align-items: center;
     padding: 10rem 0;
     width: 100vw;
-    height: 100vh;
+    height: 25vh;
     font-size: 2rem;
     color: white;
     background: #272727;
@@ -754,29 +744,4 @@ body {
 container1 {
   width: 100vw;
   padding: 0;
-}
-
-.dividerline{
-  border-bottom: 2px solid black;
-  margin-bottom: 5rem;
-
-}
-
-.dividerline a{
-  margin-bottom: 10rem;
-}
-
-.dividerline .logo{
-  margin-bottom: 10rem;
-  font-weight: bold;
-  color:black;
-  font-size: 2rem;
-}
-
-.dividerline h2{
-  color:gray;
-}
-
-.dividerline h3{
-  padding-bottom: 2rem;
 }
