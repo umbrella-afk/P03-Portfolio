@@ -9,6 +9,35 @@
   color: black;
 }
 
+.P1_landing {
+  height: 100vh;
+  width: 100vw;
+  background: url("../img/arm1.png") no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  position: relative;
+  color: white;
+}
+
+.p1_landing_text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.p1_landing_text h1 {
+  color: white;
+  font-size: 6rem;
+  text-transform: uppercase;
+  padding: 2rem;
+  border-radius: 10px 0;
+}
+.p1_landing_text h2 {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-left: 12rem;
+}
+
 .landing_text {
   display: table-cell;
   text-align: center;
@@ -313,6 +342,43 @@
   display: flex;
 }
 
+.p1_site-main .site-banner {
+  padding-left: 10rem;
+}
+.p1_site-main .site-banner .site-title h3 {
+  padding-top: 35%;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+  color: black;
+  margin: 0;
+}
+.p1_site-main .site-banner p {
+  padding-bottom: 20px;
+}
+.p1_site-main .site-banner .site-title h4 {
+  font-size: 2.5rem;
+  padding-bottom: 50px;
+  color: black;
+  margin: 0;
+}
+.p1_site-main .site-banner .site-title h2 {
+  font-size: 4rem;
+  color: black;
+  font-weight: 500;
+  padding: 10px 0;
+  margin: 0;
+}
+.p1_site-main .site-banner .banner-image img {
+  padding: 7rem 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.p1_site-main .site-banner .site-button {
+  display: flex;
+}
+
 .text-upeercase {
   text-transform: uppercase;
 }
@@ -362,6 +428,31 @@
   color: black;
 }
 
+.p1_site-intro {
+  padding-left: 10rem;
+}
+.p1_site-intro span {
+  display: block;
+  letter-spacing: 15px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.p1_site-intro p {
+  padding: 3rem 0 3rem 0;
+}
+.p1_site-intro .site-image img {
+  padding: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.explanation h4 {
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
 .scroll-banner {
   -webkit-background-size: cover;
   height: 80vh;
@@ -377,7 +468,7 @@
   -webkit-background-size: cover;
   height: 80vh;
   width: 100vw;
-  background: url("../img/bg5.png") no-repeat center center fixed;
+  background: url("../img/game5.jpg") no-repeat center center fixed;
   background-size: cover;
   display: table;
   position: relative;
@@ -443,6 +534,38 @@
 .footer-area .copyright p a span:hover {
   color: grey;
   text-decoration: none;
+}
+
+.p1_service-area {
+  padding: 7rem 2rem;
+  margin-bottom: 20rem;
+}
+.p1_service-area .services {
+  width: 250px;
+}
+.p1_service-area h2 {
+  padding-bottom: 5rem;
+}
+.p1_service-area .services .card-body {
+  padding: 2rem;
+}
+.p1_service-area .card-body h5 {
+  font-weight: bold;
+}
+.p1_service-area .service-list {
+  padding-top: 8rem;
+}
+.p1_service-area img {
+  width: 70vw;
+}
+.p1_service-area span {
+  font-weight: bold;
+  color: black;
+}
+.p1_service-area .service-title {
+  padding: 2rem;
+  color: black;
+  font-weight: 500;
 }
 
 .service-area {

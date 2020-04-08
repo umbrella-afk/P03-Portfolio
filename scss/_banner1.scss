@@ -53,3 +53,56 @@
 
 
 }
+
+.p1_site-main .site-banner{
+  padding-left: 10rem;
+
+
+  .site-title h3{
+    padding-top: 35%;
+    padding-bottom: 3.5rem;
+
+    font-size: 4rem;
+    color: black;
+    margin: 0;
+
+
+  }
+  p{
+    padding-bottom: 20px;
+
+  }
+
+  .site-title h4{
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+    color: black;
+    margin: 0;
+  }
+
+  .site-title h2{
+    font-size: 4rem;
+    color: black;
+      font-weight: 500;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+
+
+  .banner-image img{
+    padding: 7rem 0;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  }
+
+  .site-button{
+    display: flex;
+
+
+  }
+
+
+}
