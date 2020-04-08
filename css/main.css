@@ -433,6 +433,17 @@
   color: white;
   text-decoration: none;
 }
+.footer-area .copyright p a span {
+  color: white;
+  text-decoration: none;
+}
+.footer-area .copyright p a:hover {
+  text-decoration: none;
+}
+.footer-area .copyright p a span:hover {
+  color: grey;
+  text-decoration: none;
+}
 
 .service-area {
   padding: 7rem 2rem;
