@@ -41,11 +41,11 @@
 .P2_landing {
   height: 100vh;
   width: 100vw;
-  background: url("../img/game4.png") no-repeat center center fixed;
+  background: url("../img/game7.jpg") no-repeat center center fixed;
   background-size: cover;
   display: table;
   position: relative;
-  color: black;
+  color: white;
   margin-bottom: 15rem;
 }
 
@@ -55,17 +55,17 @@
   vertical-align: middle;
 }
 .p2_landing_text h1 {
-  color: black;
+  color: white;
   font-size: 6rem;
   text-transform: uppercase;
   padding: 2rem;
   border-radius: 10px 0;
 }
 .p2_landing_text h2 {
-  color: black;
+  color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  padding-left: 12rem;
+  padding-left: 30rem;
 }
 
 .landing_text {
@@ -696,6 +696,17 @@
   padding: 2rem;
   color: black;
   font-weight: 500;
+}
+
+.site-main .citation p {
+  padding: 1rem;
+}
+.site-main .citation a {
+  padding-left: 5px;
+}
+.site-main .citation a:hover {
+  color: grey;
+  text-decoration: none;
 }
 
 *, *::before, *::after {
